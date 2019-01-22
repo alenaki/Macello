@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="description" content="">
+		<meta name="author" content="Alen">
+		<title>Boutique Butcher</title>
+		<link href="normalize.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700|Open+Sans:300,400" rel="stylesheet">
+
+		<script src="https://use.fontawesome.com/07bd802a4d.js"></script>
+		<script>src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+				$('#mobileButton').click(function(){
+					$('#menu ul').slideToggle();			
+				});
+			})	
+		</script><!-- End Script-->		
+	</head>
+	<body>
+
+	<div class="background-image-cjenik">
+			<div class="naslov-proizvodi">
+				<h1>KONTAKT</h1>
+			</div>
+		<div class="nav-container">
+			<div class="logo">
+				<img src="Img/Logo.png">
+			</div>
+			<div class="nav-wrapper">
+				<nav id="menu">
+					<div id="mobileButton">
+						<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+					</div><!-- div #mobileButton end -->
+					<ul>
+						<li><a href="index.html">POČETNA</a></li>
+						<li><a href="Proizvodi i Usluge.html">PROIZVODI I USLUGE</a></li>
+						<li><a href="Katalog.html">KATALOG</a></li>
+						<li><a href="Cjenik.html">CJENIK</a></li>
+						<li><a href="Kontakt.html">KONTAKT</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div><!-- End Background-Image-Home -->
+
+
+	<div class="kontakt-forma-container clearfix">
+		<div class="kontakt-info-wrapper">
+			<h4>INFORMACIJE</h4>
+			<div class="kontakt-ikone">
+				<img src="Img/home-address.png">
+			</div>
+			<div class="kontakt-tekst">
+				<p> ILICA 623 10000 ZAGREB</p>
+			</div>
+			<div class="kontakt-ikone">
+				<img src="Img/phone-book.png">
+			</div>
+			<div class="kontakt-tekst">
+				<p>01/ 2345 - 6789</p>
+			</div>
+			<div class="kontakt-ikone">
+				<img src="Img/internet.png">
+			</div>
+			<div class="kontakt-tekst">
+				<p>www.algebra.hr</p>
+			</div>
+		</div><!-- End Kontakt Info Wrapper-->
+
+
+	
+		<div class="kontakt-forma-wrapper clearfix">
+			<h4>PIŠITE NAM</h4>
+			<form name="kontakt" class="kontakt-forma" method="post" action="">
+				<p>
+					<input type="text" name="ime" class="ime" placeholder="Ime">
+				</p>
+				<p>
+					<input type="text" name="Prezime" class="prezime" placeholder="Prezime">
+				</p>
+				<p>
+					<input type="text" name="ime" class="tema" placeholder="Tema">
+				</p>
+				<p>
+					<textarea name="poruka" cols="20" rows="10" class="poruka" placeholder="Poruka"></textarea>
+				</p>
+
+				<p>
+					<input type="submit" name="potvrda" class="potvrda" value="Pošalji">
+				</p>				
+			</form>
+		</div><!-- End Kontakt FOrma Wrapper -->
+	</div><!-- End Kontakt Forma Container -->	
+
+
+	<div class="slike-wrapper clearfix">	
+		<div class="slike">
+			<img src="Img/butchery2.jpg">
+		</div>	
+		<div class="slike">
+			<img src="Img/cut.jpg">
+		</div>	
+	</div><!-- End Slike -->	
+
+	<footer class="clearfix">
+		<div class="copyright">
+			<p>"Seminarski rad za POU Algebra-Web dizajn"</p>
+		</div>
+		<div class="social-media">
+			<a href="#"><img src="Img/facebook.png"></a>
+			<a href="#"><img src="Img/instagram.png"></a>
+		</div>
+	</footer><!-- Footer End -->
+
+
+	</body>
